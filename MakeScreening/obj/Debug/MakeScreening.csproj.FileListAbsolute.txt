@@ -1,0 +1,11 @@
+E:\c#\web\guess\MakeScreening\bin\Debug\MakeScreening.exe.config
+E:\c#\web\guess\MakeScreening\bin\Debug\MakeScreening.exe
+E:\c#\web\guess\MakeScreening\bin\Debug\MakeScreening.pdb
+E:\c#\web\guess\MakeScreening\bin\Debug\@public.dll
+E:\c#\web\guess\MakeScreening\bin\Debug\DBC.dll
+E:\c#\web\guess\MakeScreening\bin\Debug\MySql.Data.dll
+E:\c#\web\guess\MakeScreening\bin\Debug\DBC.pdb
+E:\c#\web\guess\MakeScreening\bin\Debug\@public.pdb
+E:\c#\web\guess\MakeScreening\obj\Debug\MakeScreening.csprojResolveAssemblyReference.cache
+E:\c#\web\guess\MakeScreening\obj\Debug\MakeScreening.exe
+E:\c#\web\guess\MakeScreening\obj\Debug\MakeScreening.pdb

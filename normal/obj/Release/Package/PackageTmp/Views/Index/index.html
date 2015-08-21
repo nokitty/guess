@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>测试页</title>
+    <link type="text/css" href="style.css" rel="/css/stylesheet" />
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <script language="javascript" type="text/javascript">
+
+        $(function () {
+            var serverTime = new Date();
+            setInterval(servertime, 1000);
+            function servertime() {
+                serverTime.setTime(serverTime.getTime() + 1000);
+                var now = serverTime;
+                var str = "当前时间是：" + now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日  " + now.getHours() + "时" + now.getMinutes() + "分" + now.getSeconds() + "秒";
+                $("#servertime").text(str);
+            }
+        });
+        $(function () {
+            
+            //function changshu() {
+            //    for (i = 0; i < changshu.length; i++) {
+            //        if (serverTime = '12:00:00') {
+            //            window.location.reload();
+            //        }
+            //    }
+            //    if (serverTime >= changshu[i].start && serverTime <= changshu[i].end) {
+            //        document.getElementById('changshu').innerHTML = changshu[i].changshu;
+
+            //    }
+
+            //}
+            var serverTime = new Date("2015-08-16 10:10:00");
+            setInterval(daojishi, 1000);
+            function daojishi() {
+                serverTime.setTime(serverTime.getTime() - 1000);
+                var str = serverTime.getMinutes() + "分";
+                var sec = serverTime.getSeconds() + "秒";
+                $('#minute_show').text(str);
+                $('#second_show').text(sec);
+            }
+        });
+
+        //var intDiff = parseInt(600);
+
+        //function timer(intDiff) {
+        //    window.setInterval(function () {
+        //        var minute = 0,
+        //            second = 0;
+        //        if (intDiff > 0) {
+        //            day = Math.floor(intDiff / (60 * 60 * 24));
+        //            hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+        //            minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+        //            second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+        //        }
+        //        if (minute <= 9) minute = '0' + minute;
+        //        if (second <= 9) second = '0' + second;
+
+        //        $('#minute_show').html('<s></s>' + minute + '分');
+        //        $('#second_show').html('<s></s>' + second + '秒');
+        //        intDiff--;
+        //    }, 1000);
+        //}
+
+        //$(function () {
+        //    timer(intDiff);
+        //        }
+        //        );
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header_name">赢出你的人生</div>
+        <div class="servertime"><p id="servertime"></p></div>
+        <div class="turntable">
+            <img src="images/out.png" class="out" />
+            <img src="images/in.png" class="in" />
+        </div>
+        <div class="number">
+            <font color=#ffffff>
+                当前第       <font color=red id="changshu">0</font> 场，竞猜倒计时：
+            </font>
+        </div>
+        <div class="countdown">
+            <div class="time-item">
+                <strong id="minute_show">
+                    <font id="minute">00分</font>
+                </strong>
+                <strong id="second_show">
+                    <font id="second">00秒</font>
+                </strong>
+            </div>
+        </div>
+        <div class="explain">
+            <table class="datalist" summary="list of members in EE Studay">
+                <tr>
+                    <th scope="col" width="60px;">场次</th>
+                    <th scope="col">水果</th>
+                    <th scope="col" width="60px;">场次</th>
+                    <th scope="col">水果</th>
+                </tr>
+                <tr class="altrow">
+                    <td scope="col" width="55px;">1场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                    <td scope="col" width="55px;">2场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                </tr>
+                <tr>
+                    <td scope="col" width="55px;">3场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                    <td scope="col" width="55px;">4场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                </tr>
+                <tr>
+                    <td scope="col" width="55px;">5场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                    <td scope="col" width="55px;">6场</td>
+                    <td scope="col"><img src="#" width="30" height="30" alt=""></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="explain">
+            <table class="datalist" summary="list of members in EE Studay">
+                <tr>
+                    <td style="color:#a43529; font-size:16px; line-height:30px; height:30px;width:314px;">说明</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

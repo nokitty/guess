@@ -1,0 +1,9 @@
+E:\c#\web\guess\DBC\bin\Debug\DBC.dll.config
+E:\c#\web\guess\DBC\bin\Debug\DBC.dll
+E:\c#\web\guess\DBC\bin\Debug\DBC.pdb
+E:\c#\web\guess\DBC\bin\Debug\@public.dll
+E:\c#\web\guess\DBC\bin\Debug\MySql.Data.dll
+E:\c#\web\guess\DBC\bin\Debug\@public.pdb
+E:\c#\web\guess\DBC\obj\Debug\DBC.csprojResolveAssemblyReference.cache
+E:\c#\web\guess\DBC\obj\Debug\DBC.dll
+E:\c#\web\guess\DBC\obj\Debug\DBC.pdb

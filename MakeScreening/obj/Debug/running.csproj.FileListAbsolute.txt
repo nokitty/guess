@@ -1,0 +1,3 @@
+E:\c#\web\guess\MakeScreening\bin\Debug\MakeScreening.exe.config
+E:\c#\web\guess\MakeScreening\obj\Debug\MakeScreening.exe
+E:\c#\web\guess\MakeScreening\obj\Debug\MakeScreening.pdb

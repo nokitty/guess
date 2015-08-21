@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/BootstrapFrame.Master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+    <%var user = Session["user"] as DBC.User; %>
+    <div class="container">
+        <h2>管理员后台管理主页</h2>
+
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="list-group">
+                    <a class="list-group-item <%=ViewBag.Page=="概况"?"active":"" %>" href="/">概况</a>
+                    <a class="list-group-item <%=ViewBag.Page=="开奖"?"active":"" %>" href="/home/drawing">开奖</a>
+                    <a class="list-group-item <%=ViewBag.Page=="投注"?"active":"" %>" href="/home/betting">投注</a>
+                    <a class="list-group-item <%=ViewBag.Page=="用户"?"active":"" %>" href="/home/users">用户</a>
+                    <a class="list-group-item <%=ViewBag.Page=="修改密码"?"active":"" %>" href="/home/resetpw">修改密码</a>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <h3><%=ViewBag.Title2==null?"":ViewBag.Title2 %></h3>
+                <hr />
+                <asp:ContentPlaceHolder runat="server" ID="body"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="script">
+    <asp:ContentPlaceHolder runat="server" ID="script"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="style">
+    <asp:ContentPlaceHolder runat="server" ID="style"></asp:ContentPlaceHolder>
+</asp:Content>

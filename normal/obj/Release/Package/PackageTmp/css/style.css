@@ -1,0 +1,291 @@
+﻿body {
+    background: #8bc6dd;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding:0;    
+    width: 100%;
+    height: 680px;
+    background: #8bc6dd;
+}
+.header_name {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px 0 10px 0;
+    font-size: 48px;
+    text-align: center;
+    color: #ff0000;
+}
+
+.servertime {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #c7e5ff;
+    margin: 10px auto;
+    color: #FF8C00;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.turntable {
+    width: 270px;
+    height: 270px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.turntable img {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 0;
+    top: 0;
+}
+
+.number {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.countdown {
+    width: 100%;
+    height: 55px;
+    margin: 2px 0;
+    text-align: center;
+}
+
+.time-item strong {
+    background: #00ff21;
+    color: #fff;
+    line-height: 49px;
+    font-size: 36px;
+    font-family: Arial;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.datalist {
+    border: 1px solid #771804; /* 表格边框 */
+    font-family: Arial;
+    border-collapse: collapse; /* 边框重叠 */
+    background-color: #eaf5ff; /* 表格背景色 */
+    font-size: 12px;
+    width: 350px;
+    margin: 5px auto;
+}
+
+    .datalist caption {
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font: bold 1.4em;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .datalist th {
+        border: 1px solid #d57e26; /* 行名称边框 */
+        background-color: #f3b67a; /* 行名称背景色 */
+        color: #000; /* 行名称颜色 */
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: center;
+    }
+
+    .datalist td {
+        border: 1px solid #f6cd76; /* 单元格边框 */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        color: #000;
+    }
+
+    .datalist tr.altrow {
+        background-color: #c7e5ff; /* 隔行变色 */
+    }
+
+.explain {
+    margin: 20px auto;
+    width: 350px;
+    _height: 200px;
+    border-bottom: 1px dashed #CCC;
+}
+
+.block6_1 {
+    width: 4em;
+}
+
+.explain_2 {
+    margin: 10px auto;
+    width: 350px;
+    margin-left: .3em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+.explain_2 img {
+    margin-right: .4em;
+    border: 1px solid #db5b4c;
+    padding: .1em;
+}
+
+.fruits-icons{
+    box-sizing:content-box;
+    width:30px;
+    height:30px;
+    background-image:url(/images/fruits.png);
+    background-position-y:0;
+    display:inline-block;
+    border:1px solid red;
+}
+
+.fruits-icons.None{
+    background-position:0 0;
+}
+
+.fruits-icons.Watermelon{
+    background-position:-30px 0;
+}
+
+.fruits-icons.Strawberry{
+    background-position:-60px 0;
+}
+
+.fruits-icons.Pineapple{
+    background-position:-90px 0;
+}
+
+.fruits-icons.Grape{
+    background-position:-120px 0;
+}
+
+.fruits-icons.Banana{
+    background-position:-150px 0;
+}
+
+.fruits-icons.Orange{
+    background-position:-180px 0;
+}
+.explain_2 {
+    border: 1px solid #771804; /* 表格边框 */
+    font-family: Arial;
+    border-collapse: collapse; /* 边框重叠 */
+    background-color: #eaf5ff; /* 表格背景色 */
+    font-size: 12px;
+    width: 350px;
+    margin: 5px auto;
+}
+
+    .explain_2 tr {
+        border: 1px solid #d57e26; /* 行名称边框 */
+        background-color: #eaf5ff; /* 行名称背景色 */
+        color: #000; /* 行名称颜色 */
+        font-weight: bold;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: center;
+    }
+
+    .person-info{ 
+        font-weight: bold;
+        color:red;
+}
+.betting{
+        
+        width:350px;
+}
+.bet{
+        color:#FF8000;
+        text-align:center;
+        font-weight:bold;
+}
+.betting tr{
+        border: 1px solid #771804;
+        background-color: #eaf5ff; /* 行名称背景色 */
+        color: #000; /* 行名称颜色 */
+        text-align: center;
+        font-size:12px;
+        width:350px;
+
+}
+.betting th{
+       border:1px solid #f6cd76;
+        width:60px;
+        text-align: center;
+}
+.betting td{
+        border:1px solid #fff; /* 单元格边框 */
+        text-align: center;
+}
+
+.history{
+        margin: 10px auto;
+        width: 350px;
+        _height: 200px;
+
+}
+.history_2{
+        border: 1px solid #771804; /* 表格边框 */
+        background-color: #eaf5ff; /* 表格背景色 */
+        font-size: 12px;
+        width: 350px;
+        margin: 5px auto;
+
+
+}
+.history_2 th{
+        border: 1px solid #d57e26; /* 行名称边框 */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: #f3b67a; /* 行名称背景色 */     
+        text-align: center;      
+}
+.history_2 td {
+        border: 1px solid #f6cd76; /* 单元格边框 */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;      
+    }
+
+.button_orange{  
+    color: #fef4e9;  
+    border: solid 1px #da7c0c;  
+    background: #f78d1d;  
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20)); 
+    text-align:center; 
+    display:block;
+    font-weight:bold;
+}
+.betting_record{
+    color:#FF8000;
+    text-align:center;
+    font-weight:bold;
+} 
+.submit{
+    margin:5px auto;
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

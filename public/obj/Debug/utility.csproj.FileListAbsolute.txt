@@ -1,0 +1,5 @@
+E:\c#\web\guess\public\bin\Debug\@public.dll
+E:\c#\web\guess\public\bin\Debug\@public.pdb
+E:\c#\web\guess\public\obj\Debug\@public.dll
+E:\c#\web\guess\public\obj\Debug\@public.pdb
+E:\c#\web\guess\public\obj\Debug\utility.csprojResolveAssemblyReference.cache
